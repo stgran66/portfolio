@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.f6010701.js",
+    "static/media/filmApp.png": "/portfolio/static/media/filmApp.f581fe0193e780b74118.png",
+    "static/media/webStudio.png": "/portfolio/static/media/webStudio.203a8e89de575fbd1003.png",
+    "static/media/barbershop.png": "/portfolio/static/media/barbershop.ab1c63602c5d9ae6b475.png",
+    "static/media/icecream.png": "/portfolio/static/media/icecream.b88d69e9a069567ace72.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.cd6a10658d1549570fd0.png",
+    "static/media/react.png": "/portfolio/static/media/react.4127b36258b5e9dc8f88.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/phonebook.png": "/portfolio/static/media/phonebook.708d28e5bab478bafb18.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.7fec6369cecd1cbd44d6.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.8e08c2165d60d7ca62a9.png",
+    "static/media/java-script.png": "/portfolio/static/media/java-script.78206ba65e01c7d57080.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.d2811e5969760ef58072.png",
+    "index.html": "/portfolio/index.html",
+    "main.f6010701.js.map": "/portfolio/static/js/main.f6010701.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f6010701.js"
+  ]
+}
