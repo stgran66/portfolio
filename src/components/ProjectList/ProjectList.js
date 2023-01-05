@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+// import { motion, AnimatePresence } from 'framer-motion';
 import { StyledProjectList, StyledContainer } from './ProjectList.styled';
 import Filter from '../Filter/Filter';
 import Project from '../Project/Project';
@@ -11,7 +11,7 @@ const ProjectList = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(projects[0]);
 
-  const MotionModal = motion(Modal);
+  // const MotionModal = motion(Modal);
 
   const handleChange = (event) => {
     setSelectedFilter(event.target.value);
@@ -32,15 +32,13 @@ const ProjectList = () => {
 
   return (
     <StyledContainer>
-      <AnimatePresence>
-        {showModal && (
-          <MotionModal
-            show={showModal}
-            onClose={closeModal}
-            project={selectedProject}
-          />
-        )}
-      </AnimatePresence>
+      {showModal && (
+        <Modal
+          show={showModal}
+          onClose={closeModal}
+          project={selectedProject}
+        />
+      )}
       <Filter handleChange={handleChange} selected={selectedFilter} />
       <StyledProjectList>
         {filteredProjects.map((project) => (
