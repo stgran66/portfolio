@@ -9,6 +9,7 @@ export const Backdrop = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   opacity: 1;
   animation: appear 500ms;
@@ -35,6 +36,13 @@ export const Content = styled.div`
   color: #33ff00;
   font: 1.3rem Inconsolata, monospace;
   text-shadow: 0 0 3px #c8c8c8;
+
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
 
   animation: move 500ms;
   @keyframes move {

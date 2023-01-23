@@ -13,4 +13,8 @@ export const StyledProjectList = styled.ul`
   align-items: stretch;
   justify-content: center;
   gap: 20px;
+
+  @media screen and (max-width: 769px) {
+    gap: 10px;
+  }
 `;

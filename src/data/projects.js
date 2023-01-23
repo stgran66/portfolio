@@ -1,6 +1,7 @@
 import { images } from '../images';
 
-const { webStudio, filmApp, barbershop, phonebook, icecream } = images;
+const { webStudio, filmApp, barbershop, phonebook, icecream, contactsRestApi } =
+  images;
 
 export const projects = [
   {
@@ -27,9 +28,26 @@ export const projects = [
     repoLink: 'https://github.com/stgran66/react-phonebook',
   },
   {
+    title: 'Contacts REST API',
+    technologies: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'MongoDB Atlas',
+      'Mongoose',
+      'JEST',
+    ],
+    link: 'https://github.com/stgran66/nodejs-homework-rest-api',
+    description:
+      'REST API written in Node.js used to store registered users contacts in MongoDB Atlas.',
+    image: contactsRestApi,
+    repoLink: 'https://github.com/stgran66/nodejs-homework-rest-api',
+  },
+  {
     title: 'FilmApp',
     technologies: [
       'HTML',
+      'CSS',
       'SASS',
       'JS',
       'AJAX',

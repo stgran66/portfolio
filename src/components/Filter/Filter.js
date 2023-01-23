@@ -1,5 +1,9 @@
 import React from 'react';
-import { StyledRadioButton, StyledBullet } from './Filter.styled';
+import {
+  StyledRadioButton,
+  StyledBullet,
+  FilterContainer,
+} from './Filter.styled';
 
 const technologies = [
   'All',
@@ -13,7 +17,7 @@ const technologies = [
 
 const Filter = ({ handleChange, selected }) => {
   return (
-    <div>
+    <FilterContainer>
       {technologies.map((tech) => (
         <StyledRadioButton
           key={tech}
@@ -29,7 +33,7 @@ const Filter = ({ handleChange, selected }) => {
           <i>{tech}</i>
         </StyledRadioButton>
       ))}
-    </div>
+    </FilterContainer>
   );
 };
 

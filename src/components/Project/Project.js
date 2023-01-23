@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledProject } from './Project.styled'; // Import the styles for the component
 
 const Project = ({ project, onClick, updateSelectedProject }) => {
-  const { title, image, link, technologies, description } = project;
+  const { title, image, technologies, description } = project;
   return (
     <StyledProject
       onClick={() => {

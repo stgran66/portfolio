@@ -11,15 +11,15 @@ export const StyledApp = styled.div`
     width: 95%;
   }
 
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 480px) and (max-width: 768px) {
     width: 480px;
   }
 
-  @media (min-width: 769px) and (max-width: 1200px) {
+  @media (min-width: 768px) and (max-width: 1200px) {
     width: 768px;
   }
 
-  @media (min-width: 1201px) {
+  @media (min-width: 1200px) {
     width: 1200px;
   }
 `;

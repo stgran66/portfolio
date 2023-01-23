@@ -1,33 +1,36 @@
 import styled from 'styled-components';
 
-export const FilterContainer = styled.div`
+export const StyledContainer = styled.div`
+  width: 400px;
   display: flex;
-  margin: -2px;
+  justify-content: center;
+  background-color: #202020;
+
   @media screen and (max-width: 1199px) {
-    flex-wrap: wrap;
+    width: 540px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 420px;
+  }
+  @media screen and (max-width: 479px) {
+    width: 100%;
   }
 `;
 
-export const StyledRadioButton = styled.label`
+export const StyledButton = styled.button`
   position: relative;
   display: inline-block;
+  flex-grow: 1;
   min-width: 80px;
   height: 60px;
   padding: 8px 15px;
-  margin: 4px 2px;
+  margin: 8px 1px;
   border-radius: 10px;
   background: linear-gradient(180deg, #282828, #202020);
   box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
     inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
     10px 20px 25px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  @media screen and (max-width: 1199px) {
-    flex-grow: 1;
-  }
-  @media screen and (max-width: 767px) {
-    flex-grow: 1;
-    min-width: 60px;
-  }
 
   ::before {
     content: '';
@@ -47,12 +50,14 @@ export const StyledRadioButton = styled.label`
   }
 
   i {
-    position: relative;
+    position: absolute;
     color: #fff;
     font-style: normal;
     text-transform: uppercase;
     font-size: 1, 5em;
     transition: all 0.2s;
+    top: 9px;
+    left: 10px;
   }
 
   cursor: pointer;
@@ -83,8 +88,4 @@ export const StyledRadioButton = styled.label`
       box-shadow: none;
     }
   }
-`;
-
-export const StyledBullet = styled.input`
-  display: none;
 `;

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Typewriter from 'typewriter-effect/dist/core';
+import ModalKeyboard from '../ModalKeyboard/ModalKeyboard';
 
 import { Backdrop, Content } from './Modal.styled';
 
@@ -11,7 +12,7 @@ export const Modal = ({ show, onClose, project }) => {
     const container = document.querySelector('.modal-content');
     const typewriter = new Typewriter(container, {
       loop: false,
-      delay: 20,
+      delay: 10,
     });
 
     typewriter
@@ -21,7 +22,7 @@ export const Modal = ({ show, onClose, project }) => {
 
       .typeString(`$ / > Short info: ${description}<br>`)
       .pauseFor(150)
-      .typeString(`$ / >Tech stack ${technologies}<br>`)
+      .typeString(`$ / > Tech stack ${technologies}<br>`)
       .pauseFor(100)
       .typeString(`$ / > Visit website (press W)<br>`)
       .pauseFor(200)
@@ -80,6 +81,9 @@ export const Modal = ({ show, onClose, project }) => {
   return ReactDOM.createPortal(
     <Backdrop onClick={onClose}>
       <Content className='modal-content' onClick={(e) => e.stopPropagation()} />
+      {window.innerWidth < 1200 && (
+        <ModalKeyboard link={link} repoLink={repoLink} onClose={onClose} />
+      )}
     </Backdrop>,
     document.getElementById('root')
   );

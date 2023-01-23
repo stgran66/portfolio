@@ -11,6 +11,14 @@ const GlobalStyles = createGlobalStyle`
     font-size: ${(props) => props.theme.fontSize};
     line-height: ${(props) => props.theme.lineHeight};
     margin: 0;
+
+    &.no-scroll {
+      overflow: hidden;
+    }
+
+    ul {
+      padding: 0;
+    }
   }
 `;
 

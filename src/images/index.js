@@ -11,6 +11,7 @@ import phonebook from './phonebook.png';
 import barbershop from './barbershop.png';
 import filmApp from './filmApp.png';
 import icecream from './icecream.png';
+import contactsRestApi from './contactsRestApi.png';
 
 export const images = {
   cssImg,
@@ -26,4 +27,5 @@ export const images = {
   barbershop,
   filmApp,
   icecream,
+  contactsRestApi,
 };

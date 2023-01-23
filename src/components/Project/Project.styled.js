@@ -9,6 +9,15 @@ export const StyledProject = styled.li`
   min-width: calc((100% - 80px) / 3);
   background-color: ${(props) => props.theme.background};
 
+  @media screen and (max-width: 1199px) {
+    flex-basis: calc((100% - 40px) / 2);
+    min-width: calc((100% - 40px) / 2);
+  }
+  @media screen and (max-width: 767px) {
+    flex-basis: 100%;
+    min-width: 100%;
+  }
+
   border: none;
   border-radius: 20px;
   padding: 0;
@@ -28,6 +37,7 @@ export const StyledProject = styled.li`
 
   img {
     width: 100%;
+    height: 344px;
     object-fit: cover;
     border-radius: 0.25rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);

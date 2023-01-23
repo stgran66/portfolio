@@ -24,6 +24,13 @@ export const StyledHeader = styled.header`
   h1 {
     margin: 0;
     font-size: 2rem;
+
+    @media screen and (max-width: 767px) {
+      font-size: 1.5rem;
+    }
+    @media screen and (max-width: 479px) {
+      font-size: 1.25rem;
+    }
   }
 
   nav {

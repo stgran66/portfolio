@@ -11,8 +11,6 @@ const ProjectList = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(projects[0]);
 
-  // const MotionModal = motion(Modal);
-
   const handleChange = (event) => {
     setSelectedFilter(event.target.value);
   };
@@ -24,10 +22,12 @@ const ProjectList = () => {
 
   const openModal = (e) => {
     setShowModal(true);
+    document.querySelector('body').classList.add('no-scroll');
   };
 
   const closeModal = () => {
     setShowModal(false);
+    document.querySelector('body').classList.remove('no-scroll');
   };
 
   return (
