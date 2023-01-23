@@ -15,6 +15,8 @@ export const StyledContainer = styled.div`
   @media screen and (max-width: 479px) {
     width: 100%;
   }
+
+  animation: move 500ms;
 `;
 
 export const StyledButton = styled.button`
