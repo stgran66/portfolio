@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { motion, AnimatePresence } from 'framer-motion';
 import { StyledProjectList, StyledContainer } from './ProjectList.styled';
 import Filter from '../Filter/Filter';
 import Project from '../Project/Project';

@@ -6,7 +6,7 @@ import { FaMailBulk, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Header = () => (
   <StyledHeader>
     <Link to='/'>
-      <h1>My Portfolio</h1>
+      <h1>My Projects</h1>
     </Link>
     <StyledContacts>
       <a href='https://www.linkedin.com/in/stanislaw-grygoriew-b3b0a6255/'>

@@ -1,32 +1,53 @@
 import { images } from '../images';
 
-const { webStudio, filmApp, barbershop, phonebook, icecream, contactsRestApi } =
-  images;
+const {
+  webStudio,
+  filmApp,
+  barbershop,
+  phonebook,
+  icecream,
+  contactsRestApi,
+  petly,
+  petlyAPI,
+} = images;
 
 export const projects = [
   {
-    title: 'Web Studio',
-    technologies: ['HTML', 'CSS', 'SASS', 'RWD', 'GIT'],
-    link: 'https://stgran66.github.io/webstudio/',
-    description: 'Website for a web studio with an adaptive layout.',
-    image: webStudio,
-    repoLink: 'https://github.com/stgran66/webstudio',
-  },
-  {
-    title: 'Phonebook',
+    title: 'Petly',
     technologies: [
       'React',
       'Redux',
-      'Redux-Persist',
-      'Webpack',
-      'Git',
-      'REST API',
+      'Material UI',
+      'HTML',
+      'CSS',
+      'RWD',
+      'GIT',
     ],
-    link: 'https://stgran66.github.io/react-phonebook',
-    description: `Webapp for storing your contacts, with registration and authentication`,
-    image: phonebook,
-    repoLink: 'https://github.com/stgran66/react-phonebook',
+    link: 'https://stgran66.github.io/petly/',
+    description: `Web application for animal lovers, to find, buy or sold pets. Team project - role: Team lead. `,
+    image: petly,
+    repoLink: 'https://github.com/stgran66/petly',
   },
+  {
+    title: 'Petly API',
+    technologies: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'MongoDB Atlas',
+      'Mongoose',
+      'Multer',
+      'Joi',
+      'Cloudinary',
+      'Swagger',
+    ],
+    link: 'https://petly-backend-backup.onrender.com/api-docs/',
+    description:
+      'REST API written in Node.js used to connect Petly project with DB',
+    image: petlyAPI,
+    repoLink: 'https://github.com/stgran66/petly-backend',
+  },
+
   {
     title: 'Contacts REST API',
     technologies: [
@@ -43,6 +64,22 @@ export const projects = [
     image: contactsRestApi,
     repoLink: 'https://github.com/stgran66/nodejs-homework-rest-api',
   },
+  {
+    title: 'Phonebook',
+    technologies: [
+      'React',
+      'Redux',
+      'Redux-Persist',
+      'Webpack',
+      'Git',
+      'REST API',
+    ],
+    link: 'https://stgran66.github.io/react-phonebook',
+    description: `Webapp for storing your contacts, with registration and authentication`,
+    image: phonebook,
+    repoLink: 'https://github.com/stgran66/react-phonebook',
+  },
+
   {
     title: 'FilmApp',
     technologies: [
@@ -78,5 +115,13 @@ Role: developer. Wrote code for Firebase Authentication and created Firestore DB
     description: 'Website for a small icecream store with an adaptive layout.',
     image: icecream,
     repoLink: 'https://github.com/stgran66/icecream',
+  },
+  {
+    title: 'Web Studio',
+    technologies: ['HTML', 'CSS', 'SASS', 'RWD', 'GIT'],
+    link: 'https://stgran66.github.io/webstudio/',
+    description: 'Website for a web studio with an adaptive layout.',
+    image: webStudio,
+    repoLink: 'https://github.com/stgran66/webstudio',
   },
 ];

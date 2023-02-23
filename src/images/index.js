@@ -12,6 +12,8 @@ import barbershop from './barbershop.png';
 import filmApp from './filmApp.png';
 import icecream from './icecream.png';
 import contactsRestApi from './contactsRestApi.png';
+import petly from './petly.png';
+import petlyAPI from './petlyAPI.png';
 
 export const images = {
   cssImg,
@@ -28,4 +30,6 @@ export const images = {
   filmApp,
   icecream,
   contactsRestApi,
+  petly,
+  petlyAPI,
 };
