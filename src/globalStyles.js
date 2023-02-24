@@ -3,6 +3,10 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   body {
+    body[data-aos-duration='3500'] [data-aos],
+[data-aos][data-aos][data-aos-duration='3500'] {
+  transition-duration: 3500ms;
+}
     background-color: ${(props) => props.theme.surface};
     color: ${(props) => props.theme.text};
         text-shadow: 0 0 1px #c8c8c8;

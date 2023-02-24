@@ -5,6 +5,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './components/App';
 import darkTheme from './theme';
 import GlobalStyles from './globalStyles';
+import AOS from 'aos';
+import './index.css';
+
+AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

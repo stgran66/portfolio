@@ -1,0 +1,6 @@
+/* styles for animation */
+@import 'aos/dist/aos.css';
+body[data-aos-duration='3500'] [data-aos],
+[data-aos][data-aos][data-aos-duration='3500'] {
+  transition-duration: 3500ms;
+}

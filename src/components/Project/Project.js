@@ -11,6 +11,7 @@ const Project = ({ project, onClick, updateSelectedProject }) => {
         updateSelectedProject(project);
       }}
       project={project}
+      data-aos='zoom-in'
     >
       <img src={image} alt={title} />
       <div className='project-info'>

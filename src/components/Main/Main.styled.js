@@ -21,5 +21,9 @@ export const StyledMain = styled.main`
       font-style: normal;
       color: ${(props) => props.theme.highlight};
     }
+
+    @media screen and (max-width: 480px) {
+      min-height: 192px;
+    }
   }
 `;
