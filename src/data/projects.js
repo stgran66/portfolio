@@ -9,6 +9,7 @@ const {
   contactsRestApi,
   petly,
   petlyAPI,
+  jsbook,
 } = images;
 
 export const projects = [
@@ -47,7 +48,23 @@ export const projects = [
     image: petlyAPI,
     repoLink: 'https://github.com/stgran66/petly-backend',
   },
-
+  {
+    title: 'JS-book',
+    technologies: [
+      'React',
+      'Redux',
+      'TypeScript',
+      'esbuild',
+      'Monaco',
+      'Lerna',
+      'Node.js',
+    ],
+    link: 'https://stgran66.github.io/jsbook-client/',
+    description:
+      'JS-book is an interactive coding environment. You can write JavaScript, see it executed, and write comprehensive documentation using markdown.',
+    image: jsbook,
+    repoLink: 'https://github.com/stgran66/jsbook-client',
+  },
   {
     title: 'Contacts REST API',
     technologies: [

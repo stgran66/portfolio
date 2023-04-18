@@ -14,6 +14,7 @@ import icecream from './icecream.png';
 import contactsRestApi from './contactsRestApi.png';
 import petly from './petly.png';
 import petlyAPI from './petlyAPI.png';
+import jsbook from './jsbook.png';
 
 export const images = {
   cssImg,
@@ -32,4 +33,5 @@ export const images = {
   contactsRestApi,
   petly,
   petlyAPI,
+  jsbook,
 };
