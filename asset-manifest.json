@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2bf3c72b.css",
-    "main.js": "/portfolio/static/js/main.e5e07adb.js",
+    "main.js": "/portfolio/static/js/main.31b55573.js",
     "static/media/filmApp.png": "/portfolio/static/media/filmApp.f581fe0193e780b74118.png",
     "static/media/webStudio.png": "/portfolio/static/media/webStudio.203a8e89de575fbd1003.png",
     "static/media/barbershop.png": "/portfolio/static/media/barbershop.ab1c63602c5d9ae6b475.png",
     "static/media/petly.png": "/portfolio/static/media/petly.52ba4655342a2a3a45e2.png",
     "static/media/icecream.png": "/portfolio/static/media/icecream.b88d69e9a069567ace72.png",
     "static/media/contactsRestApi.png": "/portfolio/static/media/contactsRestApi.202654580dca1e35f76a.png",
+    "static/media/jsbook.png": "/portfolio/static/media/jsbook.84fa6cdaad4e763337b3.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.cd6a10658d1549570fd0.png",
     "static/media/react.png": "/portfolio/static/media/react.4127b36258b5e9dc8f88.png",
     "static/media/petlyAPI.png": "/portfolio/static/media/petlyAPI.539835c565d51cb3f5a7.png",
@@ -19,10 +20,10 @@
     "static/media/css3.png": "/portfolio/static/media/css3.d2811e5969760ef58072.png",
     "index.html": "/portfolio/index.html",
     "main.2bf3c72b.css.map": "/portfolio/static/css/main.2bf3c72b.css.map",
-    "main.e5e07adb.js.map": "/portfolio/static/js/main.e5e07adb.js.map"
+    "main.31b55573.js.map": "/portfolio/static/js/main.31b55573.js.map"
   },
   "entrypoints": [
     "static/css/main.2bf3c72b.css",
-    "static/js/main.e5e07adb.js"
+    "static/js/main.31b55573.js"
   ]
 }
